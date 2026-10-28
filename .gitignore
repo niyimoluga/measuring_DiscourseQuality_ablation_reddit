@@ -1,0 +1,24 @@
+# Model checkpoints and training artifacts (too large for GitHub)
+checkpoints_dimension_ablation/
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Weights & Biases local runs
+wandb/
+wandb_logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db

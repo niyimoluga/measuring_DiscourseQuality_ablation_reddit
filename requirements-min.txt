@@ -1,0 +1,16 @@
+# Portable minimal environment for training and analysis.
+# The full requirements.txt is a pip freeze from the original training host and
+# contains host-specific file:/// build paths; use this file on a fresh machine.
+#
+# Python 3.10+ and a CUDA-capable GPU are recommended.
+
+torch>=2.1
+transformers>=4.40
+datasets>=2.19
+accelerate>=0.30
+wandb>=0.17
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8
+seaborn>=0.13
+scipy>=1.11
